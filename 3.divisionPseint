@@ -1,0 +1,23 @@
+Algoritmo division
+
+	Definir  dividendo ,divisor Como Entero
+	Definir  cociente , resto Como Real
+	Escribir  "ingrese el valor del dividendo"
+	Leer  dividendo
+	Escribir  "ingrese el valor del divisor"
+	leer  divisor
+	cocienteDivicion = dividendo / divisor
+	restoDivision = dividendo % divisor
+	Escribir  "el resultado entre el valor = " , dividendo , " y el valor " , divisor
+	si  resto == 0  Entonces
+		Escribir  "la división es exacta"
+		Escribir  "cociente= " , cociente
+		Escribir  "restoo= " , restoDivision
+	Sino
+		
+		Escribir  "la división no es exacta"
+		Escribir  "cociente= " , cocienteDivicion
+		Escribir  "restoo= " , resto
+	FinSi
+	
+FinAlgoritmo
