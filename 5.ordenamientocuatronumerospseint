@@ -1,0 +1,43 @@
+Algoritmo  ordenamiento3
+	
+	Definir  n1 , n2, n3, n4 Como Entero
+    Escribir ' Ingrese  el  primer  número : '
+    Leer  n1
+    Escribir ' Ingrese  el  segundo  numero : '
+    Leer  n2
+    Escribir ' Ingrese  el  tercer  numero : '
+    Leer  n3
+    Escribir ' Ingrese  el  cuarto  numero : '
+    Leer  n4
+    Si  n1 > n2
+        temperatura  <-  n1
+        n1  <-  n2
+        n2  <-  temperatura
+    FinSi
+    Si  n2 > n3
+        temperatura  <-  n2
+        n2  <-  n3
+        n3  <-  temperatura
+    FinSi
+    Si  n3 >n4
+        temperatura  <-  n3
+        n3  <-  n4
+        n4  <-  temperatura
+    FinSi
+    Si  n1 > n2
+        temperatura  <-  n1
+        n1  <-  n2
+        n2  <-  temperatura
+    FinSi
+    Si  n2 > n3
+        temperatura  <-  n2
+        n2  <-  n3
+        n3  <-  temperatura
+    FinSi
+    Si  n1 > n2
+        temperatura  <-  n1
+        n1  <-  n2
+        n2  <-  temperatura
+    FinSi
+    Escribir  n1 , " ", n2, " ", n3 " " n4
+FinAlgoritmo

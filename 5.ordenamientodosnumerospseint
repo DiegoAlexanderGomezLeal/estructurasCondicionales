@@ -1,0 +1,14 @@
+Algoritmo DosNumeros
+    Definir N1, N2 Como Entero
+	
+    Escribir "Ingresa el primer numero:"
+    Leer N1
+    Escribir "Ingresa el segundo numero:"
+    Leer N2
+	
+    Si N1 < N2 Entonces
+        Escribir N1, " ", N2
+    Sino
+        Escribir N2, " ", N1
+    FinSi
+FinAlgoritmo
